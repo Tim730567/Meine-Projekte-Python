@@ -1,0 +1,17 @@
+# Leere Liste
+
+leere_liste = []
+
+
+einkaufszettel = ["Banane", "Weintrauben", "Mohrrüben"]
+einkaufszettel.append("Nüsse")
+einkaufszettel.insert(0, "Schokolade")
+
+# Funktionen für Listen
+# einkaufszettel.append("Nüsse) (vorne dran hängen)
+# einkaufszettel.insert(_index:0, _objekt:"Schokolade") (an beliebiger Stelle z.B 0 also ganz vorne)
+# einkaufszettel.pop() (schmeißt das letzte Element in der Liste immer raus, kann beliebig oft wiederholt werden)
+# einkaufszettel.remove("Weintrauben") (Konkret etwas hineinschreiben, um etwas Spezifisch zu entfernen z.B ("Weintrauben"))
+# del einkaufszettel [0] (löschen an einer bestimmten Stell mit Index [0] eingabe)
+
+print(einkaufszettel)
