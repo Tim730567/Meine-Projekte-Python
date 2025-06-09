@@ -16,5 +16,7 @@ einkaufszettel.insert(0, "Schokolade")
 # print(len(einkaufszettel)) zeigt dir in der Konsole wieviele Elemente drinnen sind.
 # print(max(einkaufszettel)) zeigt dir in der Liste das Element mit der größten Anzahl an z.B Buchstaben ("Weintrauben").
 # print(low(einkaufszettel)) zeigt dir das Element mit der geringsten Anzahl an z.B Buchstaben ("Nüsse").
-
+# print(einkaufzettel[1:3]) zeigt dir die Elemente von 1 bis 2 aber man muss 3 schreiben (Immer eins mehr, das Element wird dann nicht ausgegeben).
+# einkaufszettel = ["Banane","Weintrauben","Mohrrüben", ["Schokolade","Gummibärchen"], Listen sind verschachtelbar z.B Liste1[...,...,[...,...]] (besteht aus 2 Strings und einer Liste).
+# print(einkaufszettel [2][0][1:4], slice den String um z.B "cho" in der Konsole anzeigen zu lassen.
 print(einkaufszettel)
