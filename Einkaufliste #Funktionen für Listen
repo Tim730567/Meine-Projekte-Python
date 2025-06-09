@@ -14,5 +14,7 @@ einkaufszettel.insert(0, "Schokolade")
 # einkaufszettel.remove("Weintrauben") (Konkret etwas hineinschreiben, um etwas Spezifisch zu entfernen z.B ("Weintrauben"))
 # del einkaufszettel [0] (löschen an einer bestimmten Stell mit Index [0] eingabe)
 # print(len(einkaufszettel)) zeigt dir in der Konsole wieviele Elemente drinnen sind.
+# print(max(einkaufszettel)) zeigt dir in der Liste das Element mit der größten Anzahl an z.B Buchstaben ("Weintrauben").
+# print(low(einkaufszettel)) zeigt dir das Element mit der geringsten Anzahl an z.B Buchstaben ("Nüsse").
 
 print(einkaufszettel)
