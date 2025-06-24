@@ -1,0 +1,20 @@
+#Tupel
+
+#angegeben als tuple 
+#in runden Klammern ()
+#unveränderbare (immutable) Sammlung von Daten
+#auch tuple sind verschachtelbar tuple1(...,...,...,tuple2(...,...,))
+#wenn man was verändern möchte dann Listen, wenn nicht dann Tupel(tuple)
+
+#liste = ["Bananen", "Mohrrüben", "Trauben"]
+print(liste)
+liste[1] = "Schokolade"
+print(liste)
+
+#veränderbare Liste, hier wird "Mohrrüben" durch "Schokolade ersetzt
+
+#tupel = ("Banane", "Mohrrüben", "Trauben")
+#print(tupelo[1])
+#tupel[1] = "Schokolade"
+
+#TypeError: "tuple" object does not support item assignment, da tuple eine unveränderbare Sammlung von Daten ist.
