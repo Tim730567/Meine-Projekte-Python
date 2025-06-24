@@ -6,6 +6,12 @@ leere_liste = []
 einkaufszettel = ["Banane", "Weintrauben", "Mohrrüben"]
 einkaufszettel.append("Nüsse")
 einkaufszettel.insert(0, "Schokolade")
+print(einkaufszettel)
+einkaufszettel.pop()
+einkaufszettel.pop()
+del einkaufszettel [0]
+print(einkaufszettel)
+
 
 # Funktionen für Listen
 # einkaufszettel.append("Nüsse) (vorne dran hängen)
