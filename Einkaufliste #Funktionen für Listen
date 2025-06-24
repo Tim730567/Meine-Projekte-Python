@@ -25,4 +25,5 @@ print(einkaufszettel)
 # print(einkaufzettel[1:3]) zeigt dir die Elemente von 1 bis 2 aber man muss 3 schreiben (Immer eins mehr, das Element wird dann nicht ausgegeben).
 # einkaufszettel = ["Banane","Weintrauben","Mohrrüben", ["Schokolade","Gummibärchen"], Listen sind verschachtelbar z.B Liste1[...,...,[...,...]] (besteht aus 2 Strings und einer Liste).
 # print(einkaufszettel [2][0][1:4], slice den String um z.B "cho" in der Konsole anzeigen zu lassen.
+# einkaufszettel = ["Banane", "Weintrauben", "Mohrrüben" ["Schokolade", "Gummitiere"]] , Listen sind verschachtelbar wie hier z.B : [str,str,str,[Liste]]
 print(einkaufszettel)
