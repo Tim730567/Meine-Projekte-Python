@@ -17,21 +17,21 @@ while True :
     # löschen    
     elif aktion == "entfernen":
         artikel = input("Welchen Artikel möchtest du entfernen?")
-    if artikel in einkaufsliste:
-        einkaufsliste.remove(artikel)
-        print("Artikel wurde entfernt.")
+        if artikel in einkaufsliste:
+           einkaufsliste.remove(artikel)
+           print("Artikel wurde entfernt.")
     else:
-          print("Diesen Artikel gibt es nicht.")  
+           print("Diesen Artikel gibt es nicht.")  
     
     # anzeigen
-    if aktion == "anzeigen":
-         print("Deine Einkaufsliste:") 
-         print(einkaufsliste)
+    if   aktion == "anzeigen":
+           print("Deine Einkaufsliste:") 
+           print(einkaufsliste)
     
     # beenden
     elif aktion == "beenden":
-         print("Einkaufsliste beendet:")
-         break
+           print("Einkaufsliste beendet:")
+           break
 
     else:
-        print("Du musst deine Eingabe korrigieren.")
+           print("Du musst deine Eingabe korrigieren.")
