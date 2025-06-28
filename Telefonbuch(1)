@@ -1,0 +1,15 @@
+telefonbuch = {
+    "Bernd": "0157 888 234 99",
+    "Anna": "0157 888 234 98",
+    "Claudia": "0157 888 234 97",
+    "Kai": "0157 888 234 96",
+
+}
+
+a = input("Welche telefonnummer brauchst du?")
+if a in telefonbuch:
+    print(a, "Telefonnummer ist", telefonbuch["Bernd"])
+else:
+    print(a, "ist nicht in unserem Telefonbuch")
+del telefonbuch[a]
+print(a, "wurde aus unserem Telefonbuch gelöscht, schade!")
