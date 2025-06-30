@@ -23,7 +23,7 @@ def mache_zug(brett, spieler, zeile, spalte):
         return false
 
 # 4. Gewinn überprüfen
-def preufe_gewinne(brett, spieler):
+def pruefe_gewinne(brett, spieler):
     for spalte in range(3):
         if brett[0][spalte] == brett[1][spalte] == brett[2][spalte] == spieler:
            return True
@@ -52,7 +52,7 @@ def spiele_tic_tac_toe():
         if not mache_zug(brett, aktueller_spieler, zeile, spalte):
             print("Ungültig, versuche es erneut!")
             continue 
-        if pruefe_gewonnen(brett, aktueller_spieler):
+        if pruefe_gewinn(brett, aktueller_spieler):
             drucke_brett(brett)
             print("Hey, du hast gewonnen Spieler {aktueller_spieler}")
             break
