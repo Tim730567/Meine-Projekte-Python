@@ -1,0 +1,41 @@
+from tkinter import Tk, Label, Entry, Button
+
+def speichern(): 
+    name = entry_name.get()
+    geburt = entry_geburt.get()
+    vater = entry_vater.get()
+    mutter = entry_mutter.get()
+
+    # Hier kann man Daten speichern oder weierleiten 
+    print("Name:", name)
+    print("Geburtsdatum:", geburt)
+    print("Vater", vater)
+    print("Mutter", mutter)
+
+# Fenster erstellen
+root = Tk()
+root.title("Stammbaum - Eingabemaske")
+
+# Eingabefelder 
+Label(root,text="Name:").grid(row=0, column=0, sticky = "e")
+entry_name = Entry(root, width=30)
+entry_name.grid(row=0, column=1)
+
+Label(root, text="Geburtsdatum:").grid(row=1, column=0, sticky="e")
+entry_geburt = Entry(root, width=30)
+entry_geburt.grid(row=1, column=1)
+
+Label(root, text="Vater:").grid(row=2, column=0, sticky="e")
+entry_vater = Entry(root, width=30)
+entry_vater.grid(row=2, column=1)
+
+Label(root, text="Mutter:").grid(row=3, column=0, sticky="e")
+entry_mutter = Entry(root, width=30)
+entry_mutter.grid(row=3, column=1)
+
+# Speicher-Button
+btn_speichern = Button(root, text="Speichern", command=speichern)
+btn_speichern.grid(row=4, column=0, columnspan=2, pady=10)
+
+# Haupt-Loop starten
+root.mainloop()
